@@ -24,6 +24,7 @@ export const AddCategory = ({ setCategories }) => {
     </form>
   );
 };
+
 AddCategory.propTypes = {
   setCategories: PropTypes.func.isRequired,
 };
